@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment files
+.env
+.env.local
+
+# Generated audio (kept in repo via .gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# Model bundles are large binaries — NOT committed
+# (use bundles/.gitkeep to keep the directory)
+bundles/*
+!bundles/.gitkeep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_*.mid
+test_*.wav

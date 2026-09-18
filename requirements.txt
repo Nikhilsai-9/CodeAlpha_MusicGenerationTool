@@ -1,0 +1,22 @@
+# Core deep-learning stack (TF2 + Magenta)
+tensorflow==2.13.0
+magenta==2.1.4
+note-seq==0.0.5
+
+# Legacy deps still required by Magenta
+protobuf>=3.20,<4
+dm-tree==0.1.8
+cloudpickle==2.2.1
+tf-slim==1.1.0
+etils==0.9.0
+lazy_loader==0.3
+decorator==4.4.2
+
+# Audio I/O
+pretty-midi==0.2.10
+soundfile==0.12.1
+numpy==1.24.4
+
+# UI
+streamlit==1.32.2
+python-dotenv>=1.0.1
